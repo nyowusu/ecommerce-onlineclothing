@@ -1,0 +1,47 @@
+.collection-item {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+
+    .image {
+        width: 100%;
+        height: 95%;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 5px;
+    }
+    .add-to-cart{
+
+        width: 120px;
+        padding: 15px 60px;
+        opacity: 0.8;
+        background-color: #dfdede;
+        margin-top: 240px;
+        text-align: center;
+        position: absolute;
+        
+
+        &:active{
+            background-color: #575555
+        }
+    }
+
+    .collection-footer{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
+        margin-top: 10px;
+
+        .name {
+            width: 90%;
+        }
+
+        .price {
+            width: 10%;
+        }
+    }
+}
